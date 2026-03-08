@@ -30,7 +30,7 @@ Search for and install the following in the VS Code Extensions Marketplace:
 
 ## ⚙️ 2. Hardware and Code Configuration
 ### 2.1 Confirm Serial Port (COM Port)
-Before running the code, plug the CH340 module, and use a serial port assistant software (eg, YouShan, provided in this repository) to confirm the COM port number. 
+Before running the code, plug the CH340 module, and use a serial port assistant software (eg, [ALITHON](https://www.alithon.com/downloads)) to confirm the COM port number. 
 
 ### 2.2 Modify, Compile, and Run
 Open the serial.cpp file and modify the following parameters according to your actual situation:
@@ -87,7 +87,7 @@ Run the program:
 
 ## ⚙️ 2. 硬件与代码配置
 ### 2.1 确认串口号 (COM Port)
-在运行代码前，请将 CH340 模块插入，使用串口助手软件查看串口号（如友善串口助手，嘎嘎好用。安装包放在本仓库里了）。
+在运行代码前，请将 CH340 模块插入，使用串口助手软件查看串口号（如[友善串口助手](https://www.alithon.com/downloads)，嘎嘎好用。）。
 
 ### 2.2 修改,编译与运行
 打开 serial.cpp 文件，根据实际情况修改以下参数：
