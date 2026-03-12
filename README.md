@@ -1,6 +1,16 @@
-# Windows C++ Serial Control Program
+# USB Relay Controller (Windows10/11)
+
+This project is applicable to the opening and closing control of the LCUS-1 USB relay, or any other relay module that is controlled to open and close via a serial port.
 
 A **lightweight** program that uses the native Windows C++ API (`<windows.h>`) to send hexadecimal commands via a CH340 serial module (thereby enabling functions like relay pull-in/disconnection) in a Windows environment. Below is a **from-scratch** operation guide.
+
+<img align="left" width="88" src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-25-10.png" />
+
+**This project is packaged into an EXE program. You can use it directly without compilation.**
+
+(The EXE program is available at this repository. **You can download and run the software 'USB继电器控制器.exe' directly**. The software supports serial port selection, on/off switching, and timed shutdown. This software may be falsely flagged or accidentally deleted by your computer's firewall. If this happens, please temporarily disable your firewall and try again.)
+
+![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png)![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png)
 
 ## 🛠️ 1. Development Environment
 
@@ -56,9 +66,21 @@ Run the program:
 
  - Delay is too short: The current code has Sleep(120); (120 milliseconds) between the two commands. If the hardware responds slowly, try extending it to Sleep(1000)
 
-# Windows C++ 串口控制程序
+---
+
+# USB继电器控制器（Windows10/11）
+
+本项目适用于LCUS-1型USB继电器的开合控制，或其它任何通过串口控制开合的继电器模块。
 
  Windows 环境下使用 C++ 原生 API (`<windows.h>`) 通过 CH340 串口模块发送十六进制指令（进而实现继电器吸合/断开等功能）的**轻量级**程序。以下是**从零开始**的操作指南。
+
+<img align="left" width="88" src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-25-10.png" />
+
+**This project is packaged into an EXE program. You can use it directly without compilation.**
+
+(本项目已封装为EXE程序，**您可以直接下载'USB继电器控制器.exe'软件、运行，为您省去所有环境配置、源码编译的过程**。软件支持串口选择、开关开启、关闭及定时关闭。软件在windows 10、windows 11上测试正常运行。该软件可能被计算机防火墙误报或误删，如出现该情况请暂时关闭防火墙后再次尝试。)
+
+![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png)![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png)
 
 ## 🛠️ 1. 开发环境
 
