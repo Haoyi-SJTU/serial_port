@@ -10,7 +10,7 @@ A **lightweight** program that uses the native Windows C++ API (`<windows.h>`) t
 
 (The EXE program is available at this repository. **You can download and run the software 'USB继电器控制器.exe' directly**. The software supports serial port selection, on/off switching, and timed shutdown. This software may be falsely flagged or accidentally deleted by your computer's firewall. If this happens, please temporarily disable your firewall and try again.)
 
-![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png)![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png)
+<img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png" width="360px"><img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png" width="360px">
 
 ## 🛠️ 1. Development Environment
 
@@ -66,6 +66,11 @@ Run the program:
 
  - Delay is too short: The current code has Sleep(120); (120 milliseconds) between the two commands. If the hardware responds slowly, try extending it to Sleep(1000)
 
+
+## 5. Blog
+
+[csdn blog](https://blog.csdn.net/tuck_frump/article/details/158974435?fromshare=blogdetail&sharetype=blogdetail&sharerId=158974435&sharerefer=PC&sharesource=tuck_frump&sharefrom=from_link)
+
 ---
 
 # USB继电器控制器（Windows10/11）
@@ -80,7 +85,7 @@ Run the program:
 
 (本项目已封装为EXE程序，**您可以直接下载'USB继电器控制器.exe'软件、运行，为您省去所有环境配置、源码编译的过程**。软件支持串口选择、开关开启、关闭及定时关闭。软件在windows 10、windows 11上测试正常运行。该软件可能被计算机防火墙误报或误删，如出现该情况请暂时关闭防火墙后再次尝试。)
 
-![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png)![](https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png)
+<img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png" width="360px"><img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png" width="360px">
 
 ## 🛠️ 1. 开发环境
 
@@ -136,3 +141,7 @@ Run the program:
    检查是否有其他程序（如“串口调试助手”）正在占用该端口。
 
  - 延时过短：当前代码在两条指令间有 Sleep(120); (120毫秒)。如果硬件反应慢，可尝试延长至 Sleep(1000);。
+
+## 5. 项目博文
+
+[csdn博文](https://blog.csdn.net/tuck_frump/article/details/158974435?fromshare=blogdetail&sharetype=blogdetail&sharerId=158974435&sharerefer=PC&sharesource=tuck_frump&sharefrom=from_link)
