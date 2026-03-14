@@ -8,7 +8,7 @@ A **lightweight** program that uses the native Windows C++ API (`<windows.h>`) t
 
 **This project is packaged into an EXE program. You can use it directly without compilation.**
 
-(The EXE program is available at this repository. **You can download and run the software 'USB继电器控制器.exe' directly**. The software supports serial port selection, on/off switching, and timed shutdown. This software may be falsely flagged or accidentally deleted by your computer's firewall. If this happens, please temporarily disable your firewall and try again.)
+(The EXE program is available at this repository. **You can download and run the software directly in [release](https://github.com/Haoyi-SJTU/serial_port/releases/tag/release-v1.0)**. The software supports serial port selection, on/off switching, and timed shutdown. This software may be falsely flagged or accidentally deleted by your computer's firewall. If this happens, please temporarily disable your firewall and try again.)
 
 <img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png" width="360px"><img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png" width="360px">
 
@@ -83,7 +83,7 @@ Run the program:
 
 **This project is packaged into an EXE program. You can use it directly without compilation.**
 
-(本项目已封装为EXE程序，**您可以直接下载'USB继电器控制器.exe'软件、运行，为您省去所有环境配置、源码编译的过程**。软件支持串口选择、开关开启、关闭及定时关闭。软件在windows 10、windows 11上测试正常运行。该软件可能被计算机防火墙误报或误删，如出现该情况请暂时关闭防火墙后再次尝试。)
+(本项目已封装为EXE程序，**您可以直接在[release](https://github.com/Haoyi-SJTU/serial_port/releases/tag/release-v1.0)下载软件、运行，为您省去所有环境配置、源码编译的过程**。软件支持串口选择、开关开启、关闭及定时关闭。软件在windows 10、windows 11上测试正常运行。该软件可能被计算机防火墙误报或误删，如出现该情况请暂时关闭防火墙后再次尝试。)
 
 <img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-09.png" width="360px"><img src="https://github.com/Haoyi-SJTU/serial_port/blob/main/fig/Snipaste_2026-03-12_17-24-40.png" width="360px">
 
