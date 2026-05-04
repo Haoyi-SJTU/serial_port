@@ -1,5 +1,9 @@
 # USB Relay Controller (Windows10/11)
 
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Downloads](https://img.shields.io/github/downloads/Haoyi-SJTU/serial_port/total)
+
 This project is applicable to the opening and closing control of the LCUS-1 USB relay, or any other relay module that is controlled to open and close via a serial port.
 
 A **lightweight** program that uses the native Windows C++ API (`<windows.h>`) to send hexadecimal commands via a CH340 serial module (thereby enabling functions like relay pull-in/disconnection) in a Windows environment. Below is a **from-scratch** operation guide.
