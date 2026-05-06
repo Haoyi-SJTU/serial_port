@@ -1,7 +1,7 @@
 # USB Relay Controller (Windows10/11)
 
-![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
 ![Downloads](https://img.shields.io/github/downloads/Haoyi-SJTU/serial_port/total)
 
 This project is applicable to the opening and closing control of the LCUS-1 USB relay, or any other relay module that is controlled to open and close via a serial port.
